@@ -7,6 +7,10 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { CartProvider } from "@/contexts/CartContext";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import NewArrivals from "./pages/NewArrivals";
+import BestSellers from "./pages/BestSellers";
+import Collections from "./pages/Collections";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +24,10 @@ const App = () => (
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/new-arrivals" element={<NewArrivals />} />
+              <Route path="/best-sellers" element={<BestSellers />} />
+              <Route path="/collections" element={<Collections />} />
+              <Route path="/about" element={<About />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

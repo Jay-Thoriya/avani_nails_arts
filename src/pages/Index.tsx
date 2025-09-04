@@ -30,9 +30,9 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Shop</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">New Arrivals</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Best Sellers</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Collections</a></li>
+                <li><a href="/new-arrivals" className="hover:text-primary transition-colors">New Arrivals</a></li>
+                <li><a href="/best-sellers" className="hover:text-primary transition-colors">Best Sellers</a></li>
+                <li><a href="/collections" className="hover:text-primary transition-colors">Collections</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Gift Cards</a></li>
               </ul>
             </div>
@@ -43,6 +43,7 @@ const Index = () => {
                 <li><a href="#" className="hover:text-primary transition-colors">How To Apply</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Size Guide</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Returns</a></li>
+                <li><a href="/about" className="hover:text-primary transition-colors">About Us</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Contact Us</a></li>
               </ul>
             </div>

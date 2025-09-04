@@ -20,10 +20,10 @@ const Header = () => {
   };
 
   const navItems = [
-    { name: 'New Arrivals', href: '#' },
-    { name: 'Best Sellers', href: '#' },
-    { name: 'Collections', href: '#' },
-    { name: 'About', href: '#' },
+    { name: 'New Arrivals', href: '/new-arrivals' },
+    { name: 'Best Sellers', href: '/best-sellers' },
+    { name: 'Collections', href: '/collections' },
+    { name: 'About', href: '/about' },
   ];
 
   return (
